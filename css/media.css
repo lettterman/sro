@@ -1,0 +1,13 @@
+@media screen and (max-width: 1200px){
+	.bg_services_1,
+	.bg_services_2,
+	.bg_services_3{
+    height: 199px;
+}
+.bg_services_4,
+.bg_services_5,
+.bg_services_6,
+.bg_services_7 {
+    height: 192px;
+}
+}
