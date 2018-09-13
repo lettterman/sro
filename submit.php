@@ -45,3 +45,8 @@ alert('EMAIL FAILED');
 }
 }
 ?>
+
+
+setTimeout(function() {
+window.location.href = "http://www.ya.ru";
+}, 1);
