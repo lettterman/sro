@@ -2,12 +2,271 @@
 	.bg_services_1,
 	.bg_services_2,
 	.bg_services_3{
-    height: 199px;
+		height: 199px;
+	}
+	.bg_services_4,
+	.bg_services_5,
+	.bg_services_6,
+	.bg_services_7 {
+		height: 192px;
+	}
 }
-.bg_services_4,
-.bg_services_5,
-.bg_services_6,
-.bg_services_7 {
-    height: 192px;
+
+
+@media screen and (max-width: 992px){
+	.nav ul li a {
+		font-size: 16px;
+	}
+	.nav ul li {
+		padding: 38px 12px 20px;
+	}
+	.contacts.contacts_header {
+		width: 26%;
+	}
+	.contacts_header ul li span {
+		font-size: 14px;
+	}
+	.nav ul li {
+		padding: 41px 7px 17px;
+	}
+	.nav ul li a {
+		font-size: 14px;
+	}
+	.contacts_header ul li p {
+		line-height: 10px;
+	}
+	h1 {
+		font-size: 48px;
+	}
+	.cont_baner p {
+		font-size: 19px;
+	}
+	a.btn {
+		font-size: 18px;
+	}
+	.cont_baner ul li {
+		font-size: 16px;
+		width: 285px;
+	}
+	.h2_fs_1 {
+		font-size: 28px;
+	}
+	.bg_services_1, .bg_services_2, .bg_services_3 {
+		height: 142px;
+	}
+	.bg_services_4, .bg_services_5, .bg_services_6, .bg_services_7 {
+		height: 135px;
+	}
+	.h2_fs_2 {
+		font-size: 24px;
+	}
+	h2 {
+		margin: 35px 0;
+	}
+	.cont_map {
+		width: 50%;
+		margin-bottom: -6px;
+	}
+	.cont_reviews .h2_fs_1 span.h2 {
+		font-size: 21px;
+	}
+	.cont_reviews .h2_fs_1 {
+		line-height: 23px;
+	}
 }
+
+
+
+@media screen and (max-width: 768px){
+	.logo.logo_header {
+		display: none;
+	}
+	.contacts.contacts_header {
+		display: none;
+	}
+	.md_b-n{
+		display: block;
+	}
+	.cont_header {
+		justify-content: center;
+		-ms-align-items: center;
+	}
+	.nav ul li {
+		padding: 5px 12px 8px;
+		height: 35px;
+	}
+	.nav ul li a {
+		font-size: 12px;
+	}
+	h1 {
+		font-size: 29px;
+	}
+	.cont_baner p {
+		font-size: 14px;
+		width: 57%;
+		margin: 20px auto 25px;
+	}
+	a.btn {
+		font-size: 16px;
+		width: 290px;
+	}
+	.cont_baner ul li {
+		font-size: 12px;
+		width: 190px;
+	}
+	.cont_baner ul {
+		width: 100%;
+		padding: 11px;
+	}
+	.h2_fs_1 {
+		font-size: 14px;
+	}
+	.bg_services_1, .bg_services_2, .bg_services_3 {
+		height: 342px;
+	}
+	.bg_services_4, .bg_services_5, .bg_services_6, .bg_services_7 {
+		height: 456px;
+	}
+	h2 {
+		margin: 25px 0;
+	}
+	.section_about-us p {
+		font-size: 10px;
+	}
+	h3 {
+		font-size: 13px;
+	}
+	.cont_reviews .h2_fs_1 {
+		line-height: 14px;
+	}
+	.cont_reviews .h2_fs_1 span.h2 {
+		font-size: 10px;
+	}
+	.cont_form p {
+		font-size: 15px;
+	}
+	.cont_form .h2_fs_2 {
+		font-size: 18px;
+		line-height: 1.7;
+	}
+	.cont_form form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.cont_form form input {
+		margin-bottom: 25px;
+	}
+	input[type="tel"]{
+		font-style: 18px;
+	}
+	input.submit{
+		font-style: 17px;
+	}
+	.section_contacts {
+		flex-direction: column-reverse;
+	}
+	.cont_map {
+		width: 100%;
+	}
+	.contacts.contacts_footer {
+		width: 320px;
+		padding: 30px 15px 0px 15px;
+		margin: 0 auto;
+	}
+	.social-network img {
+		width: 20%;
+	}
+
+
 }
+
+@media screen and (max-width: 768px){
+	.section_services {
+		margin: 35px 0 15px;
+		border-radius: 0px;
+	}
+	.section_services .col-12 {
+		padding: 0;
+	}
+	.nav ul li {
+		padding: 5px 6px 8px;
+	}
+	.cont_accreditation {
+		width: 65%;
+	}
+	.div_services{
+		-webkit-background-size: contain;
+		background-size: contain;
+		width: 100%;
+		height: 137px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.bg_services_1{
+		background-image: url(../img/screen1min.svg);
+
+	}
+	.bg_services_2{
+		background-image: url(../img/screen2min.svg);
+
+	}
+	.bg_services_3{
+		background-image: url(../img/screen3min.svg);
+
+	}
+	.bg_services_4{
+		background-image: url(../img/screen4min.svg);
+
+	}
+	.bg_services_5{
+		background-image: url(../img/screen5min.svg);
+	}
+	.bg_services_6{
+		background-image: url(../img/screen6min.svg);
+	}
+	.bg_services_7{
+		background-image: url(../img/screen7min.svg);
+	}
+	.cont_reviews {
+		width: 65%;
+	}
+	a.next,
+	a.prev {
+		top: 15px;
+		height: 85%;
+		border-radius: 0;
+	}
+	.section_advantages {
+		padding: 0px 0 50px;
+		margin: 0px 3% 0;
+	}
+	.div_advantages {
+		text-align: center;
+		margin: 25px 0;
+	}
+	.nav ul li a {
+		font-size: 11px;
+	}
+	.nav ul li {
+		padding: 5px 4px 8px;
+	}
+	.cont_baner .b_ul {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

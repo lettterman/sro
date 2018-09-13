@@ -8,14 +8,19 @@ ul{
 h1{
 	font-size: 58px;
 	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 h2{
 	text-align: center;
 	margin: 45px 0;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 h3{
 	text-align: center;
 	margin: 50px 0 30px;
+	font-weight: bold;
 }
 .h2_fs_1{
 	font-size: 36px;
@@ -47,21 +52,26 @@ header{
 	box-sizing: border-box;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0);
 }
+.contacts_baner ul li p,
 .contacts_header ul li p {
 	margin: 0;
 	font-size: 10px;
 	color: #FFFFFF;
 }
+.contacts_baner  ul li span.num_s, 
 .contacts_header ul li span.num_s {
 	color: #FFCF28;
 }
+.contacts.contacts_baner, 
 .contacts.contacts_header {
 	display: flex;
 	align-items: center;
 }
+.contacts_baner ul li span,
 .contacts_header ul li span {
 	color: #fff;
 }
+.contacts_baner  ul,
 .contacts_header ul {
 	margin: 7px 0;
 }
@@ -87,10 +97,11 @@ header{
 
 .section_baner {
 	height: 100vh;
+	position: relative;
 	background-image: url(../img/bg_baner.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: center;
+	background-position: center;
 }
 .c_baner{
 	height: 100%;
@@ -118,22 +129,31 @@ a.btn {
 	box-sizing: border-box;
 	box-shadow: 0px 3px 15px rgba(255, 208, 44, 0.5);
 	border-radius: 10px;
+	text-transform: uppercase;
 }
 .cont_baner p {
 	font-size: 24px;
 	color: #FFFFFF;
 }
-.cont_baner ul li {
+.cont_baner .b_ul li {
 	font-size: 18px;
 	color: #FFFFFF;
 	display: flex;
 	justify-content: space-between;
 	width: 289px;
 }
-.cont_baner ul {
+.cont_baner .b_ul  {
 	background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.41) 48.62%, rgba(0, 0, 0, 0) 100%);
 	width: 414px;
 	text-align: -webkit-center;
+}
+.md_b-n{
+	display: none;
+	width: 100%;
+}
+a.btn_but {
+	position: absolute;
+	bottom: 15px;
 }
 
 /*section - baner - end - конец*/
@@ -229,7 +249,7 @@ h2.bgc_ad {
 
 /*section - accreditation*/
 .section_accreditation {
-    margin: 100px 0 105px;
+	margin: 100px 0 105px;
 }
 .cont_accreditation {
 	width: 80%;
@@ -251,8 +271,8 @@ a.prev {
 	width: 61px;
 	left: -65px;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 a.next {
 	position: absolute;
@@ -267,8 +287,8 @@ a.next {
 	width: 61px;
 	right: -65px;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -296,7 +316,7 @@ a.next {
 
 /*section - reviews*/
 .section_reviews {
-    margin: 100px 0 105px;
+	margin: 100px 0 105px;
 }
 .cont_reviews {
 	width: 80%;
