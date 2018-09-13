@@ -310,7 +310,7 @@
 			<div class="cont_form">
 				<h2 class="h2_fs_2">Оставьте заявку</h2>
 				<p>и мы свяжемся с Вами в течении 10 минут!</p>
-				<form action="submit.php" method="post">
+				<form action="submit.php" method="_GET">
 					<input type="tel" name="tel" class="tel" id="tel" value="телефон/e-mail">
 					<input type="submit" class="submit" name="submit" value="ОТПРАВИТЬ">
 				</form>
@@ -367,26 +367,6 @@
 		</div>
 	</div>
 </footer>
-<?php
-//проверяем, существуют ли переменные в массиве POST
-if(!isset($_GET['fio']) and !isset($_GET['email'])){
-?> <form action="send.php" method="GET">
-<input type="text" name="fio" placeholder="Укажите ФИО" required>
-<input type="submit" value="Отправить">
-</form> <?php
-} else {
-//показываем форму
-$fio = $_GET['fio'];
-$fio = htmlspecialchars($fio);
-$fio = urldecode($fio);
-$fio = trim($fio);
-if (mail("vlasov_anvar_t@mail.ru", "Заявка с сайта", "ФИО:".$fio.". ,"From: freelansband@mail.ru \r\n")){ 
-echo "Сообщение успешно отправлено"; 
-} else { 
-echo "При отправке сообщения возникли ошибки";
-}
-}
-?>
 
 <!--конец  подвал/footer  end-->
 <script src="js/jquery.min.js"></script>
