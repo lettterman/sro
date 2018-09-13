@@ -28,7 +28,7 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: Admin <admin@websapex.com>' . "\r\n"; // Give an email id on which you want get a reply. User will get a mail from this email id
+$headers .= 'From: Admin <vlasov_anvar_t@mail.ru>' . "\r\n"; // Give an email id on which you want get a reply. User will get a mail from this email id
 
 if(mail($to,$subject,$message,$headers)){
 // Message if mail has been sent
@@ -45,7 +45,6 @@ alert('EMAIL FAILED');
 }
 }
 ?>
-
 
 setTimeout(function() {
 window.location.href = "http://www.ya.ru";
