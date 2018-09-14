@@ -251,6 +251,12 @@
 	.cont_baner .b_ul {
 		width: 100%;
 	}
+	.popup {
+    left: 35%;
+}
+.section_baner {
+	height: 600px;
+}
 }
 
 

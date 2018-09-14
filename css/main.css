@@ -106,7 +106,7 @@ header{
 /*section - baner*/
 
 .section_baner {
-	height: 100vh;
+	height: 843px;
 	position: relative;
 	background-image: url(../img/bg_baner.svg);
 	background-size: cover;
@@ -216,9 +216,7 @@ a.btn_but {
 	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
 	border-radius: 20px;
 }
-.div_services:hover {
-	transform: scale(1.1);
-}
+
 
 /*section - services - end*/
 
@@ -276,7 +274,7 @@ h2.bgc_ad {
 a.prev {
 	position: absolute;
 	top: -4px;
-	z-index: 1000;
+	z-index: 100;
 	height: 100%;
 	background: #E0E0E0;
 	border: 1px solid #FFFFFF;
@@ -291,7 +289,7 @@ a.prev {
 a.next {
 	position: absolute;
 	top: -4px;
-	z-index: 1000;
+	z-index: 100;
 	height: 100%;
 	background: #E0E0E0;
 	border: 1px solid #FFFFFF;
@@ -458,7 +456,47 @@ footer {
 /*section - footer - end*/
 
 
+/*pop up*/
 
+.overlay {
+	    display: none;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.85);
+}
+.popup {
+	    display: none;
+       position: fixed;
+    border: 3px solid #999;
+    background: #fff;
+    top: 30%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    z-index: 1000;
+    border-radius: 10px;
+    padding: 30px 0 10px;
+}
+.close {
+	display:block; 
+	width:24px; 
+	text-align:center; 
+	cursor:pointer;  
+	height:24px; 
+	line-height:24px; 
+	background:#fff; 
+	position:absolute; 
+	top: 0px;
+    right: -30px; 
+	text-decoration:none; 
+	border-radius:3px; 
+	font-size:20px; 
+}
 
 
 
