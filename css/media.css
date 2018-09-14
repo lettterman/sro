@@ -65,7 +65,7 @@
 		margin-bottom: -6px;
 	}
 	.cont_reviews .h2_fs_1 span.h2 {
-		font-size: 21px;
+		font-size: 27px;
 	}
 	.cont_reviews .h2_fs_1 {
 		line-height: 23px;
@@ -253,7 +253,9 @@
 	}
 	.popup {
     left: 35%;
+    width: 273px;
 }
+
 .section_baner {
 	height: 600px;
 }

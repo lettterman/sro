@@ -335,7 +335,7 @@ a.next {
 	margin: 0 auto;
 }
 .cont_reviews .h2_fs_1 {
-	line-height: 21px;
+	line-height: 30px;
 }
 .cont_reviews .h2_fs_1 span.h2 {
 	font-size: 26px;
@@ -481,6 +481,10 @@ footer {
     z-index: 1000;
     border-radius: 10px;
     padding: 30px 0 10px;
+    width: 300px;
+}
+.popup img{
+	width: 100%;
 }
 .close {
 	display:block; 
