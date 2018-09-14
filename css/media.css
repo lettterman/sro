@@ -17,9 +17,6 @@
 	.nav ul li a {
 		font-size: 16px;
 	}
-	.nav ul li {
-		padding: 38px 12px 20px;
-	}
 	.contacts.contacts_header {
 		width: 26%;
 	}
@@ -27,7 +24,7 @@
 		font-size: 14px;
 	}
 	.nav ul li {
-		padding: 41px 7px 17px;
+		padding: 0px 7px 0px;
 	}
 	.nav ul li a {
 		font-size: 14px;
@@ -92,7 +89,7 @@
 		-ms-align-items: center;
 	}
 	.nav ul li {
-		padding: 5px 12px 8px;
+		padding: 0px 12px 0px;
 		height: 35px;
 	}
 	.nav ul li a {
@@ -190,7 +187,7 @@
 		padding: 0;
 	}
 	.nav ul li {
-		padding: 5px 6px 8px;
+		padding: 0px 6px 0px;
 	}
 	.cont_accreditation {
 		width: 65%;
@@ -249,7 +246,7 @@
 		font-size: 11px;
 	}
 	.nav ul li {
-		padding: 5px 4px 8px;
+		padding: 0px 4px 0px;
 	}
 	.cont_baner .b_ul {
 		width: 100%;

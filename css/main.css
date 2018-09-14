@@ -45,12 +45,17 @@ header{
 	display: flex;
 	margin: 0;
 }
-.nav ul li {
-	height: 87px;
-	padding: 38px 14px 20px;
-	border: 1px solid #838991;
-	box-sizing: border-box;
+.nav ul li{
+	height: 90px;
+	transition: .5s;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0);
+}
+.nav ul li a {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	box-sizing: border-box;
+	transition: .5s;
 }
 .contacts_baner ul li p,
 .contacts_header ul li p {
@@ -60,9 +65,9 @@ header{
 }
 .contacts_baner  ul li span.num_s, 
 .contacts_header ul li span.num_s {
-    color: #FFCF28;
-    text-decoration-color: #FFCF28;
-    text-decoration: underline;
+	color: #FFCF28;
+	text-decoration-color: #FFCF28;
+	text-decoration: underline;
 }
 .contacts.contacts_baner, 
 .contacts.contacts_header {
@@ -83,7 +88,7 @@ header{
 }
 .nav ul li:hover{
 	background: linear-gradient(180deg, #FFCF28 0%, #F2A102 100%);
-	border: 1px solid #FFFFFF;
+	border: 1.5px solid #FFFFFF;
 	box-sizing: border-box;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 	border-radius: 0px 0px 5px 5px;
@@ -209,7 +214,7 @@ a.btn_but {
 	border-radius: 20px;
 }
 .div_services:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /*section - services - end*/
