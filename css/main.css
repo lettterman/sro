@@ -60,7 +60,9 @@ header{
 }
 .contacts_baner  ul li span.num_s, 
 .contacts_header ul li span.num_s {
-	color: #FFCF28;
+    color: #FFCF28;
+    text-decoration-color: #FFCF28;
+    text-decoration: underline;
 }
 .contacts.contacts_baner, 
 .contacts.contacts_header {
@@ -165,6 +167,7 @@ a.btn_but {
 	background-size: cover;
 	width: 100%;
 	margin-bottom: 10px;
+	transition: .5s;
 }
 
 .bg_services_1{
@@ -204,6 +207,9 @@ a.btn_but {
 	margin: 35px 2% 15px;
 	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
 	border-radius: 20px;
+}
+.div_services:hover {
+    transform: scale(1.1);
 }
 
 /*section - services - end*/
